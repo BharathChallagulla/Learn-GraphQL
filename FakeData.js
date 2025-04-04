@@ -5,6 +5,22 @@ const UserList = [
     username: "alicej",
     age: 30,
     nationality: "American",
+    friends: [
+      {
+        id: "3",
+        name: "Carlos Rodriguez",
+        username: "carlosr",
+        age: 35,
+        nationality: "Mexican",
+      },
+      {
+        id: "5",
+        name: "Ethan Smith",
+        username: "ethans",
+        age: 40,
+        nationality: "British",
+      },
+    ],
   },
   {
     id: "2",
@@ -26,6 +42,22 @@ const UserList = [
     username: "dianal",
     age: 28,
     nationality: "Korean",
+    friends: [
+      {
+        id: "5",
+        name: "Ethan Smith",
+        username: "ethans",
+        age: 40,
+        nationality: "British",
+      },
+      {
+        id: "7",
+        name: "Giorgio Rossi",
+        username: "giorgior",
+        age: 45,
+        nationality: "Italian",
+      },
+    ],
   },
   {
     id: "5",
@@ -36,10 +68,10 @@ const UserList = [
   },
   {
     id: "6",
-    name: "Fatima Khan",
+    name: "Bharath Challagulla",
     username: "fatimak",
     age: 22,
-    nationality: "Pakistani",
+    nationality: "Indian",
   },
   {
     id: "7",
@@ -71,4 +103,66 @@ const UserList = [
   },
 ];
 
-module.exports = { UserList };
+const MovieList = [
+  {
+    id: "1",
+    name: "The Matrix",
+    yearOfPublication: 1999,
+    isInTheaters: false,
+  },
+  {
+    id: "2",
+    name: "Inception",
+    yearOfPublication: 2010,
+    isInTheaters: false,
+  },
+  {
+    id: "3",
+    name: "Avatar: The Way of Water",
+    yearOfPublication: 2022,
+    isInTheaters: true,
+  },
+  {
+    id: "4",
+    name: "Pulp Fiction",
+    yearOfPublication: 1994,
+    isInTheaters: false,
+  },
+  {
+    id: "5",
+    name: "The Dark Knight",
+    yearOfPublication: 2008,
+    isInTheaters: false,
+  },
+  {
+    id: "6",
+    name: "Oppenheimer",
+    yearOfPublication: 2023,
+    isInTheaters: true,
+  },
+  {
+    id: "7",
+    name: "Spirited Away",
+    yearOfPublication: 2001,
+    isInTheaters: false,
+  },
+  {
+    id: "8",
+    name: "Interstellar",
+    yearOfPublication: 2014,
+    isInTheaters: false,
+  },
+  {
+    id: "9",
+    name: "Everything Everywhere All at Once",
+    yearOfPublication: 2022,
+    isInTheaters: false,
+  },
+  {
+    id: "10",
+    name: "The Godfather",
+    yearOfPublication: 1972,
+    isInTheaters: false,
+  },
+];
+module.exports = { UserList, MovieList };
